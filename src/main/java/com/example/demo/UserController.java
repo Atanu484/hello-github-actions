@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "How do you do? I am good. Thank you.";
+        return "How do you do?";
     }
 }
