@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "Howdy, GitHub Actions!";
+        return "Howdy, GitHub Actions! This is a demo.";
     }
 }
