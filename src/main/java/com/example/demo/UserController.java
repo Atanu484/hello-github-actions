@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "Howdy, GitHub Actions! This is a demo. I'm a Spring Boot app. I'm running in a Docker container. I'm deployed to Azure App Service.";
+        return "Hello, Github Actions!";
     }
 }
