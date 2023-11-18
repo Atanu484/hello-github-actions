@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "Welcome to Riza's environment. Riza will torture you tomorrow.";
+        return "Welcome to Riza's environment";
     }
 }
