@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "Welcome to Riza's environment. This is a demo Spring Boot application.";
+        return "Welcome to Riza's environment. This is a demo Spring Boot application. I hope you enjoy it!";
     }
 }
