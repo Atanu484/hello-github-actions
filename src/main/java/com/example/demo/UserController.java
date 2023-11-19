@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "Hello World! Thggdbbdssgskhhjk/hbjkagddgsgsffsdgds is asffasfsgeggdgssddsgdshjhjaggsggfufugfhjhjbasdgjk";
+        return "Hello World!";
     }
 }
