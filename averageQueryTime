@@ -1,0 +1,7 @@
+curl -H "Authorization: token TOKEN" \
+     -H "Accept: application/vnd.github.v3+json" \
+     "https://api.github.com/repos/Atanu484/hello-github-actions/actions/runs" 
+     | jq '.workflow_runs[] | select(.run_started_at != null) 
+     | {run_id: .id, queue_time_seconds: ((.run_started_at 
+     | fromdateiso8601) - (.created_at 
+     | fromdateiso8601))}'
