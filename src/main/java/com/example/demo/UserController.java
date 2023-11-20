@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "Hello Wjjgjgjorld! This ihvmchgfyughjfcffhvjfjfyfjyyfuhfhfhjfhjkvhvjjjvvvjvvjhhfjhjhvjcbjbgvhhcujkjbgugugjgjbjchcchs a demo";
+        return "Hello Wjjgjgjorld! This  a demo";
     }
 }
